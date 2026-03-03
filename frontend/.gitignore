@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vite / build
+.vite/
+.cache/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+
+# Vercel
+.vercel
+.vercel/
+
+# Misc
+Thumbs.db
+.eslintcache
